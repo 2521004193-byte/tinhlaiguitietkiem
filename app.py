@@ -1,7 +1,7 @@
-import streamlit as st
+
 
 # Tiêu đề ứng dụng
-st.title("💰 Ứng dụng tính tiền gửi tiết kiệm")
+st.title(" Ứng dụng tính tiền gửi tiết kiệm")
 
 # Nhập dữ liệu
 C = st.number_input(
@@ -37,9 +37,9 @@ if st.button("Tính toán"):
     st.success("Kết quả tính toán")
 
     st.write(
-        f"📌 Số tiền khách hàng nhận được theo lãi đơn: **{An:,.2f} triệu đồng**"
+        f" Số tiền khách hàng nhận được theo lãi đơn: **{An:,.2f} triệu đồng**"
     )
 
     st.write(
-        f"📌 Số tiền khách hàng nhận được theo lãi kép: **{Bn:,.2f} triệu đồng**"
+        f" Số tiền khách hàng nhận được theo lãi kép: **{Bn:,.2f} triệu đồng**"
     )
